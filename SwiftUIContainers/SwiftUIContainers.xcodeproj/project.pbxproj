@@ -16,6 +16,7 @@
 		23EB204A2421C8EB006288C0 /* SwiftUIContainersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20492421C8EB006288C0 /* SwiftUIContainersTests.swift */; };
 		23EB20552421C8EB006288C0 /* SwiftUIContainersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20542421C8EB006288C0 /* SwiftUIContainersUITests.swift */; };
 		23EB20632421C9CD006288C0 /* EmbedViewInContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */; };
+		23EB20652421CB9A006288C0 /* AddNaviBarItemsInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		23EB20542421C8EB006288C0 /* SwiftUIContainersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIContainersUITests.swift; sourceTree = "<group>"; };
 		23EB20562421C8EB006288C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedViewInContainer.swift; sourceTree = "<group>"; };
+		23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNaviBarItemsInView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				23EB20402421C8EB006288C0 /* Info.plist */,
 				23EB203A2421C8EB006288C0 /* Preview Content */,
 				23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */,
+				23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */,
 			);
 			path = SwiftUIContainers;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				23EB20352421C8E1006288C0 /* SceneDelegate.swift in Sources */,
 				23EB20372421C8E1006288C0 /* ContentView.swift in Sources */,
 				23EB20632421C9CD006288C0 /* EmbedViewInContainer.swift in Sources */,
+				23EB20652421CB9A006288C0 /* AddNaviBarItemsInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
