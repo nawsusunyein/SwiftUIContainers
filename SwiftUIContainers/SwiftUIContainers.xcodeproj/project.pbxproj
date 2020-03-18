@@ -19,6 +19,7 @@
 		23EB20652421CB9A006288C0 /* AddNaviBarItemsInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */; };
 		23EB20672421CEEB006288C0 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20662421CEEB006288C0 /* TabViewTest.swift */; };
 		23EB20692421D2FE006288C0 /* GroupViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20682421D2FE006288C0 /* GroupViewTest.swift */; };
+		23EB206B2421D4B7006288C0 /* HideStatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB206A2421D4B7006288C0 /* HideStatusBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNaviBarItemsInView.swift; sourceTree = "<group>"; };
 		23EB20662421CEEB006288C0 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
 		23EB20682421D2FE006288C0 /* GroupViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewTest.swift; sourceTree = "<group>"; };
+		23EB206A2421D4B7006288C0 /* HideStatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideStatusBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */,
 				23EB20662421CEEB006288C0 /* TabViewTest.swift */,
 				23EB20682421D2FE006288C0 /* GroupViewTest.swift */,
+				23EB206A2421D4B7006288C0 /* HideStatusBarView.swift */,
 			);
 			path = SwiftUIContainers;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23EB206B2421D4B7006288C0 /* HideStatusBarView.swift in Sources */,
 				23EB20672421CEEB006288C0 /* TabViewTest.swift in Sources */,
 				23EB20332421C8E1006288C0 /* AppDelegate.swift in Sources */,
 				23EB20692421D2FE006288C0 /* GroupViewTest.swift in Sources */,

@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Embed view in container","Navigation bar items","Tab View","Group Views"]
+    let componentsList = ["Embed view in container","Navigation bar items","Tab View","Group Views","Hidden Status Bar"]
     var body: some View {
         NavigationView{
             List{
@@ -36,6 +36,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:GroupViewTest()){
                     Text(componentsList[3])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:HideStatusBarView()){
+                    Text(componentsList[4])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)
