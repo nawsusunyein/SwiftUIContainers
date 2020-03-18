@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    let componentsList = ["Embed view in container","Navigation bar items","Tab View"]
+    let componentsList = ["Embed view in container","Navigation bar items","Tab View","Group Views"]
     var body: some View {
         NavigationView{
             List{
@@ -29,6 +29,13 @@ struct ContentView: View {
                 }
                 NavigationLink(destination:TabViewTest()){
                     Text(componentsList[2])
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(Color.white)
+                        .cornerRadius(10)
+                }
+                NavigationLink(destination:GroupViewTest()){
+                    Text(componentsList[3])
                         .padding()
                         .background(Color.blue)
                         .foregroundColor(Color.white)

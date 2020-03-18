@@ -18,6 +18,7 @@
 		23EB20632421C9CD006288C0 /* EmbedViewInContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */; };
 		23EB20652421CB9A006288C0 /* AddNaviBarItemsInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */; };
 		23EB20672421CEEB006288C0 /* TabViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20662421CEEB006288C0 /* TabViewTest.swift */; };
+		23EB20692421D2FE006288C0 /* GroupViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EB20682421D2FE006288C0 /* GroupViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbedViewInContainer.swift; sourceTree = "<group>"; };
 		23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNaviBarItemsInView.swift; sourceTree = "<group>"; };
 		23EB20662421CEEB006288C0 /* TabViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTest.swift; sourceTree = "<group>"; };
+		23EB20682421D2FE006288C0 /* GroupViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				23EB20622421C9CD006288C0 /* EmbedViewInContainer.swift */,
 				23EB20642421CB9A006288C0 /* AddNaviBarItemsInView.swift */,
 				23EB20662421CEEB006288C0 /* TabViewTest.swift */,
+				23EB20682421D2FE006288C0 /* GroupViewTest.swift */,
 			);
 			path = SwiftUIContainers;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			files = (
 				23EB20672421CEEB006288C0 /* TabViewTest.swift in Sources */,
 				23EB20332421C8E1006288C0 /* AppDelegate.swift in Sources */,
+				23EB20692421D2FE006288C0 /* GroupViewTest.swift in Sources */,
 				23EB20352421C8E1006288C0 /* SceneDelegate.swift in Sources */,
 				23EB20372421C8E1006288C0 /* ContentView.swift in Sources */,
 				23EB20632421C9CD006288C0 /* EmbedViewInContainer.swift in Sources */,
